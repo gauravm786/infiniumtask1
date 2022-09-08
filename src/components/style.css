@@ -1,0 +1,121 @@
+.navcol{
+    display: flex;
+    background-color: black;
+    height: 3rem;
+}
+.navl{
+    display: flex;
+}
+.navh{
+    font-size: large;
+    color: white;
+    padding: 10px;
+    margin-left: 30rem;
+    /* border: 1px solid blue; */
+}
+
+ul{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+li{
+    padding:10px;
+    margin: auto;
+    float: left;
+    /* border: 1px solid blue; */
+}
+
+.navtxt{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+.div1{
+    /* border: 2px solid red; */
+    height: 38rem;
+    background-image: url("https://wallpaper.dog/large/20512813.jpg");
+    background-size: contain;
+}
+
+.loginPage{
+    height: 35rem;
+    width: 55rem;
+    background-color: whitesmoke;
+    margin: 2rem 15rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.infpic{
+    /* background-color: aquamarine; */
+    background-image: url("C:\Users\hp\Desktop\onlyGaurav\Infinium\task\task1\Infiniumdevio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+    width: 20%;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+body{
+    /* border: 1px solid red; */
+    height: 41rem;
+}
+
+.logindetail{
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-left: 25rem;
+    margin-top: 12rem;
+}
+
+input{
+    width: 23rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 0.5px solid lightgrey;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+button{
+    width: 23rem;
+    height: 3rem;
+    background-color: gold;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* for eye part  */
+
+.input-field{
+    border-radius: 1rem;
+    border: 0.5px solid lightgrey;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23rem;
+    height: 3rem;
+    padding: 1rem;
+  }
+  
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: hidden;
+    outline: none;
+    font-size: 18px;
+    text-indent: 2px;
+    padding: 5px;  
+  }
+  
+.input-field span{
+    cursor: pointer;
+  }
